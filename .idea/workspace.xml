@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2a03885-fc98-4adb-a39d-bd24e5f5815c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Answer.js" afterPath="$PROJECT_DIR$/src/Answer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Game.js" afterPath="$PROJECT_DIR$/src/Game.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="302">
+              <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -42,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Answer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Answer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Answer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -146,8 +145,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Numbers.js" />
         <option value="$PROJECT_DIR$/src/Stars.js" />
-        <option value="$PROJECT_DIR$/src/Game.js" />
         <option value="$PROJECT_DIR$/src/Answer.js" />
+        <option value="$PROJECT_DIR$/src/Game.js" />
       </list>
     </option>
   </component>
@@ -269,7 +268,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518446924509</updated>
-      <workItem from="1518446927646" duration="12151000" />
+      <workItem from="1518446927646" duration="12513000" />
     </task>
     <task id="LOCAL-00001" summary="app component">
       <created>1518447867769</created>
@@ -411,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518458278770</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="unselectNumber function to remove clicked Answers back to Numbers">
+      <created>1518459200784</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1518459200784</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12151000" />
+    <option name="totallyTimeSpent" value="12513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -468,7 +474,8 @@
     <MESSAGE value="Selected numbers render as selected if it is on the selectedNumber array" />
     <MESSAGE value="Selecting a number.&#10; &#10; &#10; &#10; &#10; TODO: discover why it says: Uncaught DOMException: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.&#10; &#10;  at removeChild (http://localhost:3001/static/js/bundle.js:38074:22)&#10;     at unmountHostComponents (http://localhost:3001/static/js/bundle.js:32204:11)&#10;     at commitDeletion (http://localhost:3001/static/js/bundle.js:32248:5)&#10;     at commitAllHostEffects (http://localhost:3001/static/js/bundle.js:32940:13)&#10;     at HTMLUnknownElement.callCallback (http://localhost:3001/static/js/bundle.js:23556:14)&#10;     at Object.invokeGuardedCallbackDev (http://localhost:3001/static/js/bundle.js:23595:16)&#10;     at invokeGuardedCallback (http://localhost:3001/static/js/bundle.js:23452:27)&#10;     at commitRoot (http://localhost:3001/static/js/bundle.js:33029:9)&#10;     at performWorkOnRoot (http://localhost:3001/static/js/bundle.js:34031:42)&#10;     at performWork (http://localhost:3001/static/js/bundle.js:33981:7)&#10;     at batchedUpdates (http://localhost:3001/static/js/bundle.js:34100:9)&#10;     at batchedUpdates (http://localhost:3001/static/js/bundle.js:25344:12)&#10;     at dispatchEvent (http://localhost:3001/static/js/bundle.js:26435:5)" />
     <MESSAGE value="We avoid to rerender a new random number of Stars after clicking on a Number, extracting the random number of starts generated to a top level component, Game. Also we avoid to make an ANswer from a current selected Number 🤓" />
-    <option name="LAST_COMMIT_MESSAGE" value="We avoid to rerender a new random number of Stars after clicking on a Number, extracting the random number of starts generated to a top level component, Game. Also we avoid to make an ANswer from a current selected Number 🤓" />
+    <MESSAGE value="unselectNumber function to remove clicked Answers back to Numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="unselectNumber function to remove clicked Answers back to Numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,21 +596,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Answer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
