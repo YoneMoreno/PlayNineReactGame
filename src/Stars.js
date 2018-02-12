@@ -1,7 +1,8 @@
 import React from 'react';
 
+
 const Stars = () => {
-    const numberOfStars = 5;
+    const numberOfStars = randomIntBetween(1, 9);
 
     let stars = [];
     for (let i = 0; i < numberOfStars; i++) {
@@ -16,3 +17,7 @@ const Stars = () => {
 };
 
 export {Stars}
+
+function randomIntBetween(minimumThreshold, factor) {
+    return Math.floor(Math.random() * factor) + minimumThreshold;
+}

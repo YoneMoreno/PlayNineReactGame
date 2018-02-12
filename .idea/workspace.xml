@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a03885-fc98-4adb-a39d-bd24e5f5815c" name="Default" comment="">
+    <list default="true" id="d2a03885-fc98-4adb-a39d-bd24e5f5815c" name="Default" comment="random nu">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stars.js" afterPath="$PROJECT_DIR$/src/Stars.js" />
     </list>
@@ -104,8 +104,8 @@
       <file leaf-file-name="Stars.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -242,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518446924509</updated>
-      <workItem from="1518446927646" duration="3703000" />
+      <workItem from="1518446927646" duration="3960000" />
     </task>
     <task id="LOCAL-00001" summary="app component">
       <created>1518447867769</created>
@@ -321,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518450384837</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="display dinamic number of starts">
+      <created>1518450677844</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1518450677844</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3703000" />
+    <option name="totallyTimeSpent" value="3960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -369,7 +376,8 @@
     <MESSAGE value="add stars and span style" />
     <MESSAGE value="numbers classes" />
     <MESSAGE value="numbers cursors" />
-    <option name="LAST_COMMIT_MESSAGE" value="numbers cursors" />
+    <MESSAGE value="display dinamic number of starts" />
+    <option name="LAST_COMMIT_MESSAGE" value="display dinamic number of starts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -462,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
