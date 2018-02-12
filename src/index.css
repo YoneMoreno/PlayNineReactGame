@@ -14,11 +14,14 @@ span {
     cursor: pointer;
 }
 
-.selected{
+.selected {
     color: black;
     background-color: lightgray;
+    cursor: not-allowed;
 }
-.used{
-    color:green;
+
+.used {
+    color: green;
     background-color: lightgreen;
+    cursor: not-allowed;
 }
