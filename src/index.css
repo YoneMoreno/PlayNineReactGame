@@ -1,4 +1,15 @@
-.fa-star{
-    margin:0.5em;
-    font-size:24px;
+.fa-star {
+    margin: 0.5em;
+    font-size: 24px;
+    color: orange;
+}
+
+span {
+    display: inline-block;
+    margin: 0.5em;
+    text-align: center;
+    background-color: lightgray;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer;
 }
