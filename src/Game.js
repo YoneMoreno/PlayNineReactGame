@@ -6,9 +6,13 @@ import {Numbers} from "./Numbers";
 
 class Game extends React.Component {
     state = {
-        selectedNumbers: [2, 4],
+        selectedNumbers: [],
+        randomNumberOfStars: 1 + Math.floor(Math.random() * 9),
     };
     selectNumber = (clickedNumber) => {
+        if (this.state.selectedNumbers.indexOf(clickedNumber) >= 0) {
+            return;
+        }
         this.setState(prevState => ({
             selectedNumbers: prevState.selectedNumbers.concat(clickedNumber)
         }));
@@ -20,14 +24,13 @@ class Game extends React.Component {
                 <h3>Play Nine</h3>
                 <hr/>
                 <div className="row">
-                    <Stars/>
+                    <Stars numberOfStars={this.state.randomNumberOfStars}/>
                     <Button/>
                     <Answer selectedNumbers={this.state.selectedNumbers}/>
                 </div>
                 <br/>
                 <Numbers selectedNumbers={this.state.selectedNumbers}
-                         selectNumber={this.selectNumber}
-                />
+                         selectNumber={this.selectNumber}/>
             </div>
         );
     }
