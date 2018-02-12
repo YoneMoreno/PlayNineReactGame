@@ -1,6 +1,7 @@
 import React from 'react';
 import {Stars} from "./Stars";
 import {Button} from "./Button";
+import {Answer} from "./Answer";
 
 class Game extends React.Component {
     render() {
@@ -9,6 +10,7 @@ class Game extends React.Component {
                 <h3>Play Nine</h3>
                 <Stars/>
                 <Button/>
+                <Answer/>
             </div>
         );
     }
