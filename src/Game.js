@@ -10,18 +10,24 @@ class Game extends React.Component {
         randomNumberOfStars: 1 + Math.floor(Math.random() * 9),
     };
     selectNumber = (clickedNumber) => {
-        if (this.state.selectedNumbers.indexOf(clickedNumber) >= 0) {
+        if (this.isNumberSelected(clickedNumber)) {
             return;
         }
         this.setState(prevState => ({
             selectedNumbers: prevState.selectedNumbers.concat(clickedNumber)
         }));
     };
+
+
     unselectNumber = (clickedNumber) => {
         this.setState(prevState => ({
             selectedNumbers: prevState.selectedNumbers.filter(number => number !== clickedNumber)
         }));
     };
+
+    isNumberSelected(clickedNumber) {
+        return this.state.selectedNumbers.indexOf(clickedNumber) >= 0;
+    }
 
     render() {
         const {selectedNumbers, randomNumberOfStars} = this.state;
